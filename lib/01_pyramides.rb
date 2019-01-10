@@ -35,5 +35,9 @@ def wtf_pyramid
 
 end
 
-half_pyramid
-full_pyramid
+def perform
+	half_pyramid
+	full_pyramid
+end
+
+perform
