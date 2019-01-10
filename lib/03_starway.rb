@@ -41,6 +41,7 @@ def jeu # Définition de la méthode jeu
 		end
 	end
 	puts "Bravo tu es atteint les 10 marches ! You are a WINNER !!!"
+	puts "\n"
 	return i # Permet au  programme de mémoriser le nombre de tours effectués pour appliquer la methode average_finish_time
 end
 
