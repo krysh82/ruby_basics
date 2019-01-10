@@ -33,3 +33,6 @@ end
 def wtf_pyramid
 
 end
+
+half_pyramid
+full_pyramid

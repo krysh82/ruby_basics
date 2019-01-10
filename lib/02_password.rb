@@ -1,7 +1,7 @@
-def signup
+def signup #demande de creation mot de passe
 	puts "Veuillez définir un mot de passe : "
 	print ">"
-	password = gets.chomp
+	password = gets.chomp #recup via ce champ
 	return password
 end
 
@@ -13,7 +13,7 @@ def login
 end
 
 
-def welcome_screen (password, pwd)
+def welcome_screen (password, pwd) #verif du mot de passe
 	while password != pwd
 		puts "Mot de passe incorrect. ACCES INTERDIT !"
 		print ">"

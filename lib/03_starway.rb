@@ -1,9 +1,11 @@
 # JEU VIDEO
+#premiere etape
 def random # Définition de la méthode permettant le lancer le dés (chiffre aléatoir entre 1 et 6)
 	des = rand (1..6)
 	return des
 end
 
+#Regles du jeu
 def jeu # Définition de la méthode jeu
 	marche = 0 # Début du jeu à la marche 0
 	i = 1 # variable i permettant de compter le nombre de tour et de répéter les conditions
@@ -40,13 +42,10 @@ def jeu # Définition de la méthode jeu
 			i += 1
 		end
 	end
-	puts "Bravo tu es atteint les 10 marches ! You are a WINNER !!!"
+	puts "Bravo tu as atteint les 10 marches ! You are a WINNER !!!"
 	puts "\n"
 	return i # Permet au  programme de mémoriser le nombre de tours effectués pour appliquer la methode average_finish_time
 end
-
-
-
 
 # STATISTIQUES
 def average_finish_time
