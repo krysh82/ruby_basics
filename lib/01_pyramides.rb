@@ -6,7 +6,7 @@ def half_pyramid #pyramide décalage à droite
 	i=0 # def de i
 
 	while (i < nbre_etages) #affiche la condition
-		puts ("# " * i).rjust(nbre_etages) 
+		puts ("*" * i).rjust(nbre_etages) 
 		i+=1
 	end
 end
@@ -16,7 +16,7 @@ def full_pyramid # pyramide de Gizeh
 	puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ? " #affiche le texte
 	print " > " #affiche un chevron pour indiquer où l'utilisateur peut placer sa réponse
 
-	nbre_etages = Integer(gets.chomp) #la variable récupère le nbre d'étage de l'utilisateur et la convertit 
+	nbre_etages = gets.chomp.to_i #la variable récupère le nbre d'étage de l'utilisateur et la convertit 
 	i = 0
 		
 	while (i < nbre_etages)
@@ -31,6 +31,7 @@ end
 
 
 def wtf_pyramid
+
 
 end
 
